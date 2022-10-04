@@ -5,9 +5,9 @@ const path = require("path");
 // Create the application window
 const createWindow = () => {
   const win = new BrowserWindow({
-    width: 800,
-    height: 600,
-    webpreferences: {
+    width: 1000,
+    height: 920,
+    webPreferences: {
       preload: path.join(__dirname, "preload.js"),
     },
   });
@@ -29,3 +29,10 @@ app.whenReady().then(() => {
 app.on("window-all-closed", () => {
   if (process.platform !== "darwin") app.quit();
 });
+
+console.log(`Chrome v${process.versions.chrome}`);
+console.log(`Node v${process.versions.node}`);
+console.log(`Electron v${process.versions.electron}`);
+
+// const information = document.getElementById("info");
+// information.innerText = `Versions ${depend[0]}}`;

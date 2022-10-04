@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin: 3rem;
+}
+
+.para {
+  margin: 1.5rem 3rem;
+  font-size: 2rem;
+}
