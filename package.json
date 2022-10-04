@@ -1,0 +1,23 @@
+{
+  "name": "electron-tut",
+  "version": "1.0.0",
+  "description": "A full-featured electron tutorial.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbsmbb/electron-tut.git"
+  },
+  "keywords": [],
+  "author": "Charles M. Shelton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vbsmbb/electron-tut/issues"
+  },
+  "homepage": "https://github.com/vbsmbb/electron-tut#readme",
+  "devDependencies": {
+    "electron": "^21.0.1"
+  }
+}
