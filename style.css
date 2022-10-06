@@ -10,16 +10,19 @@ html {
 }
 
 body {
-  background-color: cadetblue;
+  background-color: #fcfcfc;
+  font-family: "Open Sans", sans-serif;
 }
 
-h1 {
-  font-size: 4rem;
+.header {
+  font-size: 5rem;
   text-align: center;
   margin: 3rem;
+  line-height: 1.2;
 }
 
 .para {
   margin: 1.5rem 3rem;
   font-size: 2rem;
+  line-height: 1.5;
 }
